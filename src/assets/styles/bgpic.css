@@ -1,0 +1,9 @@
+.background-main {
+    background-image: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/seoul_profile_background.jpg');
+}
+.background-profile {
+    background-image: linear-gradient(rgba(0,0,0, 0.75), rgba(0,0,0, 0.75)), url('/src/assets/img/sunset-seoul.jpg');
+}
+.back-logo {
+    background-image: url(/src/assets/img/mainlogo.png);
+}
