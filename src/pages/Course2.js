@@ -1,6 +1,7 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
+import Recocourse2 from 'components/reco_course/Recocourse2';
 
 export default function Course2() {
     return (
@@ -10,6 +11,7 @@ export default function Course2() {
             </div>
             <main>
                 <Header />
+                <Recocourse2 />
             </main>
             <DefaultFooter />
         </>

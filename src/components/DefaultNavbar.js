@@ -163,7 +163,7 @@ export default function DefaultNavbar() {
                             
 
                             <NavLink
-                                href="https://github.com/gwangmiiin/https---github.com-gwangmiiin-FE_Project_Trip"
+                                href="https://github.com/gwangmiiin/Project_trip.git"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"

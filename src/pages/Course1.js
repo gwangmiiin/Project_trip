@@ -1,9 +1,7 @@
 import DefaultNavbar from 'components/DefaultNavbar';
 import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
-import Image from '@material-tailwind/react/Image';
-import ProfilePicture from 'assets/img/기본여행자코스-001.png';
-
+import Recocourse1 from 'components/reco_course/Recocourse1';
 
 export default function Course1() {
     return (
@@ -13,13 +11,8 @@ export default function Course1() {
             </div>
             <main>
                 <Header />
-                     <Image
-                        src={ProfilePicture}
-                        alt="Profile picture"
-                        raised
-                    />
-
-            </main>
+                <Recocourse1 />
+             </main>
             <DefaultFooter />
         </>
     );
