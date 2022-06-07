@@ -53,7 +53,7 @@ export default function Content() {
                                        《주례》 〈고공기〉에 입각하여 건축되었다
                                     </LeadText>
                                     <a
-                                        href="#pablo"
+                                        href="http://www.royalpalace.go.kr"
                                         onClick={(e) => e.preventDefault()}
                                     >
                                         <Button
