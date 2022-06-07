@@ -5,7 +5,7 @@ import TripImage from '../assets/img/street.jpg'
 import { useNavigate } from 'react-router-dom'
 import { DropdownItem } from '@material-tailwind/react'
 import { ButtonGroup } from 'react-bootstrap'
-
+import 'assets/styles/index.css'
 
 
 const Home = () => {
@@ -14,7 +14,7 @@ const Home = () => {
     navigate('/qustion')
   }
     return (
-        <Wrapper>
+        <Wrapper className='background-trip'>
             <Header>국내 여행지 추천</Header>
             <Contnents>
               <Title >당신에게 어울리는 여행지는?</Title>
@@ -42,7 +42,6 @@ const Contnents =styled.div`
 const Wrapper = styled.div`
   height : 100vh;
   font-family: "SimKyungha";
-  background-image: url('public/mbti_img.png');
   background-repeat : no-repeat;
   background-size: cover;
 `
@@ -62,4 +61,5 @@ const LogoImage = styled.div`
 const Desc = styled.div`
   font-size : 20pt;
   margin-top : 20px;
+  background-color : white;
 ` 

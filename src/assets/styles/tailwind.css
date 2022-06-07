@@ -2435,6 +2435,9 @@ video {
 .lg\:justify-start{justify-content:flex-start}
 .lg\:px-36{padding-left:9rem;padding-right:9rem}
 .lg\:text-left{text-align:left}}
+.background-trip {
+    background: url('/src/assets/img/mbti_img.png');
+}
 .hover\:text-gray-900:hover{
 	--tw-text-opacity: 1;
 	color: rgba(17, 24, 39, var(--tw-text-opacity));

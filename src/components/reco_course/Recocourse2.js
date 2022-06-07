@@ -3,7 +3,8 @@ import LeadText from '@material-tailwind/react/LeadText';
 import ProfilePicture from 'assets/img/로컬라이프코스.png';
 import Icon from '@material-tailwind/react/Icon';
 import H2 from '@material-tailwind/react/Heading3';
-export default function Recocourse1() {
+
+export default function Recocourse2() {
     return (
         <>
         <section className="relative py-16 bg-gray-100">

@@ -1,6 +1,7 @@
 import Title from 'components/landing/Title';
 import ContactCard from 'components/landing/ContactCard';
 import Form from 'components/landing/Form';
+import { Link } from 'react-router-dom';
 
 export default function ContactSection() {
     return (
@@ -13,25 +14,25 @@ export default function ContactSection() {
 
                 <div className="flex flex-wrap -mt-12 justify-center">
                     <ContactCard title="볼거리">
-                       <a href ="http://localhost:3000/profile">
+                       <Link to='/profile#' >
                         눈이 즐거운 서울의 <br />
                         다양한 볼거리들을 구경하세요.<br />
                         (클릭시 이동합니다.)
-                        </a>
+                        </Link>
                     </ContactCard>
                     <ContactCard title="먹거리">
-                    <a href = "http://localhost:3000/profileFood">
+                        <Link to='/'>
                         입이 즐거운 서울의 <br />
                         다양한 먹거리들을 구경하세요. <br />
                         (클릭시 이동합니다.)
-                    </a>
+                        </Link>
                     </ContactCard>
                     <ContactCard  title="놀거리">
-                    <a href="http://localhost:3000/profilePlay">
+                    <Link to='/'>
                         몸이 즐거운 서울의 <br />
                         다양한 놀거리들을 구경하세요. <br />
                         (클릭시 이동합니다.)
-                    </a>
+                    </Link>
                     </ContactCard>
                 </div>
 

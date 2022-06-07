@@ -10,6 +10,8 @@ import NavLink from '@material-tailwind/react/NavLink';
 import Dropdown from '@material-tailwind/react/Dropdown';
 import DropdownItem from '@material-tailwind/react/DropdownItem';
 import Icon from '@material-tailwind/react/Icon';
+import Logo from 'images/logo.png';
+
 //import Button from '@material-tailwind/react/Button';
 
 export default function DefaultNavbar() {
@@ -19,15 +21,9 @@ export default function DefaultNavbar() {
         <Navbar color="transparent" navbar>
             <NavbarContainer>
                 <NavbarWrapper>
-                    <a
-                        href="/"
-                        target="_blank"
-                        rel="noreferrer"
-                    >
                         <Link to="/">
-                            <img src='public/RECO_SEOUL-removebg-preview.png' alt='로고이미지' width='50' height='50' />
+                            <img src={Logo} alt='RECO SEOUL' width='50' height='50' />
                         </Link>
-                    </a>
                     <NavbarToggler
                         onClick={() => setOpenNavbar(!openNavbar)}
                         color="white"

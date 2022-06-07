@@ -34,9 +34,9 @@ function App() {
             <Route path='/home' element={<Home/>} />
             <Route path='/qustion' element={<Question/>} />
             <Route path='/result' element={<Result/>} />
-            <Route path='/Course1' element={<Course1/>} />
-            <Route path='/Course2' element={<Course2/>} />
-            <Route path='/Course3' element={<Course3/>} />
+            <Route path='/course1' element={<Course1/>} />
+            <Route path='/course2' element={<Course2/>} />
+            <Route path='/course3' element={<Course3/>} />
             <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
     );
