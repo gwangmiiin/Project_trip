@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import {ProgressBar, Button} from 'react-bootstrap'
 import { QuestionData } from '../assets/data/qustionData'
 import { createSearchParams, useNavigate } from 'react-router-dom'
+import { DropdownItem } from '@material-tailwind/react'
 
 const Question = () => {
   const [questionNo, setQuestionNo] = React.useState(0)
@@ -89,8 +90,12 @@ const Question = () => {
           <ProgressBar striped variant="danger" now={(questionNo/QuestionData.length)*100} style = {{marginTop : '20px'}} />
           <Title>{QuestionData[questionNo].title}</Title>
           <ButtonGroup>
-            <Button style = {{width : '40%', minHeight : '200px', fontSize : '20px'}} onClick = {() => handleClickButton(1, QuestionData[questionNo].type)}>{QuestionData[questionNo].answera}</Button>
-            <Button style = {{width : '40%', minHeight : '200px', fontSize : '20px', marginLeft : '20px'}} onClick = {() => handleClickButton(0, QuestionData[questionNo].type)} >{QuestionData[questionNo].answerb}</Button>
+            <DropdownItem>
+              <Button style = {{width : '40%', minHeight : '200px', fontSize : '20px'}} onClick = {() => handleClickButton(1, QuestionData[questionNo].type)}>{QuestionData[questionNo].answera}</Button>
+            </DropdownItem>
+            <DropdownItem>
+              <Button style = {{width : '40%', minHeight : '200px', fontSize : '20px', marginLeft : '20px'}} onClick = {() => handleClickButton(0, QuestionData[questionNo].type)} >{QuestionData[questionNo].answerb}</Button>
+            </DropdownItem>
           </ButtonGroup>
         </Wrapper>
     )
@@ -102,6 +107,9 @@ const Wrapper = styled.div`
   height : 100vh;
   text-align : center;
   font-family: "SimKyungha";
+  background-image: url('https://en.pimg.jp/061/375/908/1/61375908.jpg');
+  background-repeat : no-repeat;
+  background-size: cover;
 `
 const Title = styled.div`
   font-size : 30pt;
@@ -111,4 +119,6 @@ const ButtonGroup = styled.div`
   display : flex;
   justify-content : center;
   align-items : center;
+  font-weight : bold;
+  font-size : 20px;
 `

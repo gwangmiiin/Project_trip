@@ -37,7 +37,7 @@ function App() {
             <Route path='/Course1' element={<Course1/>} />
             <Route path='/Course2' element={<Course2/>} />
             <Route path='/Course3' element={<Course3/>} />
-            <Route path="*" render={() => <Navigate to="/" />} />
+            <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
     );
 }

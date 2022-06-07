@@ -1,15 +1,14 @@
 import LeadText from '@material-tailwind/react/LeadText';
-import StatusCard1 from 'components/landing/StatusCard1';
-import StatusCard2 from 'components/landing/StatusCard2';
-import StatusCard3 from 'components/landing/StatusCard3';
 import H6 from '@material-tailwind/react/Heading6';
+import StatusCard1 from './StatusCard1';
+import StatusCard2 from './StatusCard2';
+import StatusCard3 from './StatusCard3';
 
 export default function ContentRecoCourse() {
     return (
         <section className="pb-20 bg-gray-100 -mt-32">
             <div className="container max-w-7xl mx-auto px-4">
-                <div className="flex flex-wrap relative z-50">
-                                
+                <div className="flex flex-wrap relative z-50">  
                     <StatusCard1>
                         <H6>기본 여행자 코스</H6>
                        서울을 처음 방문하는 <br />
