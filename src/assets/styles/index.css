@@ -19,3 +19,6 @@
         --tw-translate-x: -50% !important;
     }
 }
+.background-trip {
+    background: url('/src/assets/img/mbti_img.png');
+}

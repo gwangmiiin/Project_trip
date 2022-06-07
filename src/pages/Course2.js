@@ -3,6 +3,7 @@ import DefaultFooter from 'components/DefaultFooter';
 import Header from 'components/profile/Header';
 import Recocourse2 from 'components/reco_course/Recocourse2';
 
+
 export default function Course2() {
     return (
         <>

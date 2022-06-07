@@ -10,24 +10,22 @@ export default function StatusCard3({title, children }) {
     return (
         <div className="w-full md:w-4/12 px-4 flex justify-center text-center" onClick="location.replace('Course1.js')">
             <Card>
-                    <NavLink to = './Course3'>
+                <NavLink to = '/Course3'>
                     <CardBody>
-                    <div
-                        className={`p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 `}
-                    >
+                    <div className={`p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 `}>
                     </div>
                     <div className="w-80 -mt-20">
-                                        <Image
-                                            src={ProfilePicture}
-                                            alt="Profile picture"
-                                            raised
-                                        />
+                        <Image
+                            src={ProfilePicture}
+                            alt="Profile picture"
+                            raised
+                        />
                     </div>
                     <div>
-                    <H6 color="gray">{title}</H6>
+                        <H6 color="gray">{title}</H6>
                     </div>
                     <Paragraph color="blueGray">{children}</Paragraph>
-                </CardBody>
+                    </CardBody>
                 </NavLink>
             </Card>
         </div>
