@@ -25,9 +25,7 @@ export default function DefaultNavbar() {
                         rel="noreferrer"
                     >
                         <Link to="/">
-                            <DropdownItem>
-                                <p style={{color : 'white'}}>RECO SEOUL</p>
-                            </DropdownItem>
+                            <img src='public/RECO_SEOUL-removebg-preview.png' alt='로고이미지' width='50' height='50' />
                         </Link>
                     </a>
                     <NavbarToggler

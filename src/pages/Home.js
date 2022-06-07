@@ -32,6 +32,7 @@ const Home = () => {
 
 export default Home
 
+
 const Contnents =styled.div`
   display : flex;
   justify-content : center;
@@ -41,6 +42,9 @@ const Contnents =styled.div`
 const Wrapper = styled.div`
   height : 100vh;
   font-family: "SimKyungha";
+  background-image: url('public/mbti_img.png');
+  background-repeat : no-repeat;
+  background-size: cover;
 `
 const Header = styled.div`
   font-size : 40pt;
